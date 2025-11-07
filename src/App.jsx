@@ -1,6 +1,12 @@
+import CitySearch from "./CitySearch";
 
 function App() {
-   return <div></div>
+  return (
+    <>
+      <h1>Input Mask</h1>
+      <CitySearch />
+    </>
+  );
 }
 
 export default App;
