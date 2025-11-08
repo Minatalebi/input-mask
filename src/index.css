@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
 }
 
 .input {
@@ -18,9 +19,15 @@ body {
   font-size: 30px;
   z-index: 2;
   padding-left: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif3;
+  box-shadow: 0px 0px 10px #eee;
+  border-width: 0px 0px 3px 3px;
+  border-radius: 10px;
+  border-left-color: blueviolet;
+  outline: none;
+  color: blueviolet;
 }
 
 .input label {
@@ -34,4 +41,8 @@ body {
   user-select: none;
   display: flex;
   align-items: center;
+}
+h1 {
+  text-align: center;
+  color: blueviolet;
 }
